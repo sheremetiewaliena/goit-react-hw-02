@@ -1,0 +1,28 @@
+.table {
+  border-collapse: collapse;
+  max-width: 680px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.thead {
+  color: #fff;
+  background-color: #2a2a2a;
+  line-height: 1.8;
+}
+
+.th,
+.td {
+  border: 1px solid black;
+  padding: 2px 6px;
+  text-align: center;
+}
+
+.td:first-child {
+  text-align: start;
+  text-transform: capitalize;
+}
+
+.tr:nth-child(even) {
+  background-color: #d3d3d3;
+}

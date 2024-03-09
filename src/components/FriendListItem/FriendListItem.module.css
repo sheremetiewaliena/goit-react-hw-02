@@ -1,0 +1,39 @@
+.friendList {
+  max-width: 680px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 40px;
+}
+
+.friendListItem {
+  border: 2px solid black;
+  border-radius: 16px;
+  padding: 20px 4px;
+  min-width: 110px;
+  height: 186px;
+}
+
+.wrap {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+  font-size: 28px;
+  letter-spacing: 0.04em;
+}
+
+.online {
+  font-size: 20px;
+  color: green;
+}
+
+.offline {
+  font-size: 20px;
+  color: red;
+}
